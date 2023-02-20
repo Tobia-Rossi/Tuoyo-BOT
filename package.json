@@ -1,6 +1,24 @@
 {
   "dependencies": {
     "@discordjs/voice": "^0.14.0",
-    "discord.js": "^14.7.1"
-  }
+    "discord.js": "^14.7.1",
+    "eslint": "^8.34.0"
+  },
+  "name": "tuoyo-bot",
+  "description": "<p>\r <a href=\"https://github.com/Tobia-Rossi/Tuoyo-BOT/blob/master/LICENSE.md\"><img src=\"https://img.shields.io/github/license/Tobia-Rossi/Tuoyo-BOT\"><a>\r </p>\r <p>\r Code infos:\r <a href=\"https://github.com/Tobia-Rossi/Tuoyo-BOT\"><img src=\"https://img.shields.io/github/languages/top/Tobia-Rossi/Tuoyo-BOT\"></a>\r <a href=\"https://github.com/Tobia-Rossi/Tuoyo-BOT\"><img src=\"https://img.shields.io/github/languages/code-size/Tobia-Rossi/Tuoyo-BOT\"></a>\r <img alt=\"GitHub package.json dependency version (prod)\" src=\"https://img.shields.io/github/package-json/dependency-version/Tobia-Rossi/Tuoyo-BOT/discord.js\">\r </p>\r <p>\r Reddit:\r <a href=\"https://www.reddit.com/user/Tobia-Rossi\"><img src=\"https://img.shields.io/reddit/user-karma/combined/Tobia-Rossi?style=social\"></a>\r </p>\r <p>\r Discord:\r <a href=\"https://discord.gg/GemxCWtKCX\"><img src=\"https://img.shields.io/discord/921013923136811028\"></a>\r </p>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tobia-Rossi/Tuoyo-BOT.git"
+  },
+  "author": "Tobia Rossi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tobia-Rossi/Tuoyo-BOT/issues"
+  },
+  "homepage": "https://github.com/Tobia-Rossi/Tuoyo-BOT#readme"
 }
