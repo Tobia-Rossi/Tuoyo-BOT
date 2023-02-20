@@ -13,7 +13,5 @@ module.exports = {
 		if (message.author.username.search(/Tuoyo BOT/) !== -1) return;
 
 		// Here you can check for commands
-		
-		}
 	},
 };
