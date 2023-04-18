@@ -7,7 +7,10 @@ module.exports = {
 		if (!message.channel.viewable) return;
 
 		// TEMP Log message
-		console.log(`${message.author.username} has said: "${message.cleanContent}" in #${message.channel.name}`);
+		// console.log(`${message.author.username} has said: "${message.cleanContent}" in #${message.channel.name}`);
+		fs.appendFile('messages_log.log', `${message.author.username} has said: "${message.cleanContent}" in #${message.channel.name}\n`, function (err) {
+			if (err) throw err;
+		   }); 
 
 		// No reply to itself
 		if (message.author.username.search(/Tuoyo BOT/) !== -1) return;
