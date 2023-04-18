@@ -8,7 +8,7 @@ module.exports = {
 
 		// TEMP Log message
 		// console.log(`${message.author.username} has said: "${message.cleanContent}" in #${message.channel.name}`);
-		fs.appendFile('messages_log.log', `${message.author.username} has said: "${message.cleanContent}" in #${message.channel.name}\n`, function (err) {
+		fs.appendFile('messages.log', `${message.author.username} has said: "${message.cleanContent}" in #${message.channel.name}\n`, function (err) {
 			if (err) throw err;
 		   }); 
 
